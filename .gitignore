@@ -1,0 +1,3 @@
+.vs/
+# Ignore all files with the .vs extension
+*.vs

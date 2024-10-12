@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "XQPKr47vgUU=",
+  "success": true,
+  "projectFilePath": "C:\\csharp\\eShop\\server\\Services\\Catalog\\Catalog.API\\Catalog.API.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Anshul.g\\.nuget\\packages\\microsoft.visualstudio.azure.containers.tools.targets\\1.21.0\\microsoft.visualstudio.azure.containers.tools.targets.1.21.0.nupkg.sha512"
+  ],
+  "logs": []
+}
