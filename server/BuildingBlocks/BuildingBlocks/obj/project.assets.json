@@ -171,19 +171,24 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\Anshul.g\\.nuget\\packages\\": {}
+    "C:\\Users\\ANSHUL\\.nuget\\packages\\": {},
+    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\csharp\\eShop\\server\\BuildingBlocks\\BuildingBlocks\\BuildingBlocks.csproj",
+      "projectUniqueName": "F:\\_net\\learn\\eShop\\server\\BuildingBlocks\\BuildingBlocks\\BuildingBlocks.csproj",
       "projectName": "BuildingBlocks",
-      "projectPath": "C:\\csharp\\eShop\\server\\BuildingBlocks\\BuildingBlocks\\BuildingBlocks.csproj",
-      "packagesPath": "C:\\Users\\Anshul.g\\.nuget\\packages\\",
-      "outputPath": "C:\\csharp\\eShop\\server\\BuildingBlocks\\BuildingBlocks\\obj\\",
+      "projectPath": "F:\\_net\\learn\\eShop\\server\\BuildingBlocks\\BuildingBlocks\\BuildingBlocks.csproj",
+      "packagesPath": "C:\\Users\\ANSHUL\\.nuget\\packages\\",
+      "outputPath": "F:\\_net\\learn\\eShop\\server\\BuildingBlocks\\BuildingBlocks\\obj\\",
       "projectStyle": "PackageReference",
+      "fallbackFolders": [
+        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+      ],
       "configFilePaths": [
-        "C:\\Users\\Anshul.g\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\ANSHUL\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -240,7 +245,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.400/PortableRuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.300/PortableRuntimeIdentifierGraph.json"
       }
     }
   }

@@ -1,0 +1,1 @@
+F:\_net\learn\eShop\server\obj\Debug\docker-compose.dcproj.CoreCompileInputs.cache

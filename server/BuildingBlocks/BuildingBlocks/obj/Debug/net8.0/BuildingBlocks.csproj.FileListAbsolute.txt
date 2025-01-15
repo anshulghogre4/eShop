@@ -11,3 +11,16 @@ C:\csharp\eShop\server\BuildingBlocks\BuildingBlocks\obj\Debug\net8.0\BuildingBl
 C:\csharp\eShop\server\BuildingBlocks\BuildingBlocks\obj\Debug\net8.0\refint\BuildingBlocks.dll
 C:\csharp\eShop\server\BuildingBlocks\BuildingBlocks\obj\Debug\net8.0\BuildingBlocks.pdb
 C:\csharp\eShop\server\BuildingBlocks\BuildingBlocks\obj\Debug\net8.0\ref\BuildingBlocks.dll
+F:\_net\learn\eShop\server\BuildingBlocks\BuildingBlocks\bin\Debug\net8.0\BuildingBlocks.deps.json
+F:\_net\learn\eShop\server\BuildingBlocks\BuildingBlocks\bin\Debug\net8.0\BuildingBlocks.dll
+F:\_net\learn\eShop\server\BuildingBlocks\BuildingBlocks\bin\Debug\net8.0\BuildingBlocks.pdb
+F:\_net\learn\eShop\server\BuildingBlocks\BuildingBlocks\obj\Debug\net8.0\BuildingBlocks.csproj.AssemblyReference.cache
+F:\_net\learn\eShop\server\BuildingBlocks\BuildingBlocks\obj\Debug\net8.0\BuildingBlocks.GeneratedMSBuildEditorConfig.editorconfig
+F:\_net\learn\eShop\server\BuildingBlocks\BuildingBlocks\obj\Debug\net8.0\BuildingBlocks.AssemblyInfoInputs.cache
+F:\_net\learn\eShop\server\BuildingBlocks\BuildingBlocks\obj\Debug\net8.0\BuildingBlocks.AssemblyInfo.cs
+F:\_net\learn\eShop\server\BuildingBlocks\BuildingBlocks\obj\Debug\net8.0\BuildingBlocks.csproj.CoreCompileInputs.cache
+F:\_net\learn\eShop\server\BuildingBlocks\BuildingBlocks\obj\Debug\net8.0\BuildingBlocks.sourcelink.json
+F:\_net\learn\eShop\server\BuildingBlocks\BuildingBlocks\obj\Debug\net8.0\BuildingBlocks.dll
+F:\_net\learn\eShop\server\BuildingBlocks\BuildingBlocks\obj\Debug\net8.0\refint\BuildingBlocks.dll
+F:\_net\learn\eShop\server\BuildingBlocks\BuildingBlocks\obj\Debug\net8.0\BuildingBlocks.pdb
+F:\_net\learn\eShop\server\BuildingBlocks\BuildingBlocks\obj\Debug\net8.0\ref\BuildingBlocks.dll
