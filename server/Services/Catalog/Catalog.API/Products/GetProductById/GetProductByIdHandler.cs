@@ -1,4 +1,5 @@
 ﻿
+using Catalog.API.Exceptions;
 using JasperFx.CodeGeneration.Frames;
 
 namespace Catalog.API.Products.GetProductById
@@ -9,7 +10,7 @@ namespace Catalog.API.Products.GetProductById
     {
         public async Task<GetProductByIdResult> Handle(GetProductByIdQuery query, CancellationToken cancellationToken)
         {
-            var product = await session.Query<Product>().FirstOrDefaultAsync(x => x.Id == query.Id) ?? throw new InvalidOperationException("The product was not found.");
+            var product = await session.Query<Product>().FirstOrDefaultAsync(x => x.Id == query.Id) ?? throw new ProductNotFoundException();
 
             return new GetProductByIdResult(product);
         }
