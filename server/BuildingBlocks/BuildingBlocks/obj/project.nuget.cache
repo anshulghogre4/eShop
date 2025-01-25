@@ -1,9 +1,11 @@
 {
   "version": 2,
-  "dgSpecHash": "cEWP/EuUaQ9ybcMvd5rqxbNmb9Ce8Teq2L8nGiG7QhhZcEdEsJUiyo+AwruQsCXqZtZ2ekjuULJl9Qw9h+8SoA==",
+  "dgSpecHash": "IVJtKkbfrOXFYdVzs/5Gj1nUdI42rIM0vM6h05Afu543hq5INGchAcpDQ5NTnFybRNFzDPi2MRwsGsZdMwNgJA==",
   "success": true,
   "projectFilePath": "F:\\_net\\learn\\eShop\\server\\BuildingBlocks\\BuildingBlocks\\BuildingBlocks.csproj",
   "expectedPackageFiles": [
+    "C:\\Users\\ANSHUL\\.nuget\\packages\\fluentvalidation\\11.11.0\\fluentvalidation.11.11.0.nupkg.sha512",
+    "C:\\Users\\ANSHUL\\.nuget\\packages\\fluentvalidation.dependencyinjectionextensions\\11.11.0\\fluentvalidation.dependencyinjectionextensions.11.11.0.nupkg.sha512",
     "C:\\Users\\ANSHUL\\.nuget\\packages\\mapster\\7.4.0\\mapster.7.4.0.nupkg.sha512",
     "C:\\Users\\ANSHUL\\.nuget\\packages\\mapster.core\\1.2.1\\mapster.core.1.2.1.nupkg.sha512",
     "C:\\Users\\ANSHUL\\.nuget\\packages\\mediatr\\12.4.1\\mediatr.12.4.1.nupkg.sha512",

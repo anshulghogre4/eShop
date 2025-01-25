@@ -1,13 +1,14 @@
 {
   "version": 2,
-  "dgSpecHash": "kN6QU35eHPQpgbO0d+VbNn2y8XbT6T9bo7mdH5ubnDxCvwh94xJaOH8CHEzZF9VqGDtRoHTJjsPcfmCXe78OsA==",
+  "dgSpecHash": "0MlX5XrdpLZt5XpdES5M+XcFXvybrcVxEU9sKfE174MiAenC4KLeEypq1J5NhOHEPzVsPMCny8BxjsJBqIYrLw==",
   "success": true,
   "projectFilePath": "F:\\_net\\learn\\eShop\\server\\Services\\Catalog\\Catalog.API\\Catalog.API.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\ANSHUL\\.nuget\\packages\\carter\\8.2.1\\carter.8.2.1.nupkg.sha512",
     "C:\\Users\\ANSHUL\\.nuget\\packages\\carter.analyzers\\8.2.1\\carter.analyzers.8.2.1.nupkg.sha512",
     "C:\\Users\\ANSHUL\\.nuget\\packages\\fastexpressioncompiler\\4.2.2\\fastexpressioncompiler.4.2.2.nupkg.sha512",
-    "C:\\Users\\ANSHUL\\.nuget\\packages\\fluentvalidation\\11.8.0\\fluentvalidation.11.8.0.nupkg.sha512",
+    "C:\\Users\\ANSHUL\\.nuget\\packages\\fluentvalidation\\11.11.0\\fluentvalidation.11.11.0.nupkg.sha512",
+    "C:\\Users\\ANSHUL\\.nuget\\packages\\fluentvalidation.dependencyinjectionextensions\\11.11.0\\fluentvalidation.dependencyinjectionextensions.11.11.0.nupkg.sha512",
     "C:\\Users\\ANSHUL\\.nuget\\packages\\fsharp.core\\9.0.100\\fsharp.core.9.0.100.nupkg.sha512",
     "C:\\Users\\ANSHUL\\.nuget\\packages\\humanizer.core\\2.14.1\\humanizer.core.2.14.1.nupkg.sha512",
     "C:\\Users\\ANSHUL\\.nuget\\packages\\jasperfx.codegeneration\\3.7.2\\jasperfx.codegeneration.3.7.2.nupkg.sha512",
