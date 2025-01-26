@@ -10,7 +10,7 @@ namespace Catalog.API.Products.GetProductById
     {
         public async Task<GetProductByIdResult> Handle(GetProductByIdQuery query, CancellationToken cancellationToken)
         {
-            var product = await session.Query<Product>().FirstOrDefaultAsync(x => x.Id == query.Id) ?? throw new ProductNotFoundException();
+            var product = await session.Query<Product>().FirstOrDefaultAsync(x => x.Id == query.Id) ?? throw new ProductNotFoundException(query.Id);
 
             return new GetProductByIdResult(product);
         }

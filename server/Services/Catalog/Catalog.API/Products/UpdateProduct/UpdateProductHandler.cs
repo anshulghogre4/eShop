@@ -3,7 +3,7 @@ using Catalog.API.Products.CreateProduct;
 
 namespace Catalog.API.Products.UpdateProduct
 {
-    public record UpdateProductCommand(Guid Id, string Name, List<string> Category, string? Description, string ImageFile, decimal Price) : ICommand<UpdateProductResult>;
+    public record UpdateProductCommand(Guid Id, string Name, List<string> Category, string? Description, string ImageFile, decimal? Price) : ICommand<UpdateProductResult>;
     public record UpdateProductResult(bool IsSuccess);
 
     public class UpdateProductCommandValidator : AbstractValidator<UpdateProductCommand>
@@ -28,7 +28,7 @@ namespace Catalog.API.Products.UpdateProduct
             var product = await session.LoadAsync<Product>(cmd.Id, cancellationToken);
             if (product == null)
             {
-                throw new ProductNotFoundException();
+                throw new ProductNotFoundException(cmd.Id);
             }
 
             if (!string.IsNullOrEmpty(cmd.Name))
