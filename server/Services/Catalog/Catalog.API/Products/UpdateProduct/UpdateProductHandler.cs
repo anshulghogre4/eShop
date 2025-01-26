@@ -10,10 +10,13 @@ namespace Catalog.API.Products.UpdateProduct
     {
         public UpdateProductCommandValidator()
         {
-            RuleFor(x => x.Name).NotEmpty().WithMessage("Name is null");
-            RuleFor(x => x.Category).NotEmpty().WithMessage("Category is required");
-            RuleFor(x => x.ImageFile).NotEmpty().WithMessage("ImageFile is required");
-            RuleFor(x => x.Price).GreaterThan(0).WithMessage("Price is required");
+            RuleFor(x => x.Id).NotEmpty().WithMessage("Id is required");
+
+            RuleFor(x => x.Name)
+                .NotEmpty().WithMessage("Name is null")
+                .Length(2, 150).WithMessage("Name must be between 2 and 150 characters.");
+
+            RuleFor(x => x.Price).GreaterThan(0).WithMessage("Price must be greater than 0");
         }
     }
     public class UpdateProductCommandHandler(IDocumentSession session, ILogger<UpdateProductCommandHandler> logger) : ICommandHandler<UpdateProductCommand, UpdateProductResult>
