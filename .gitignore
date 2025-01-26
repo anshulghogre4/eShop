@@ -1,3 +1,64 @@
+# Ignore build outputs
+[Bb]in/
+[Oo]bj/
+
+# Ignore user-specific files
+*.user
+*.suo
+*.userprefs
+
+# Ignore NuGet packages and restore files
+*.nupkg
+packages/
+NuGet.exe
+NuGet.Config
+.nuget/
+
+# Ignore IDE-specific files
 .vs/
-# Ignore all files with the .vs extension
-*.vs
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Ignore test results
+TestResults/
+*.trx
+
+# Ignore local development files
+appsettings.Development.json
+launchSettings.json
+
+# Ignore logs and temporary files
+logs/
+*.log
+*.tmp
+
+# Ignore compiled source files
+*.dll
+*.pdb
+*.exe
+
+# Ignore Azure Functions local settings
+local.settings.json
+
+# Ignore Rider-specific files
+*.sln.iml
+
+# Ignore macOS-specific files
+.DS_Store
+
+# Ignore ReSharper files
+_ReSharper.*
+*.ReSharper
+
+# Ignore dotnet tools
+.dotnet/
+.tools/
+
+# Ignore Rider cache
+.idea/
+*.idea
+
+# Ignore Visual Studio cache
+.vs/
