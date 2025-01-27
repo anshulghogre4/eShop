@@ -62,3 +62,22 @@ _ReSharper.*
 
 # Ignore Visual Studio cache
 .vs/
+.vscode/
+
+# Specific exclusions for docker
+*.dockerignore
+
+# Exclude intermediate files and generated code
+*.gen.cs
+*.csproj.user
+*.csproj.nuget.g.props
+*.csproj.nuget.g.targets
+
+# Ignore any other temp files or local config files
+*.tmp
+*.local
+*.bak
+
+# Ignore temporary files created during the build
+*.lock.json
+project.lock.json
