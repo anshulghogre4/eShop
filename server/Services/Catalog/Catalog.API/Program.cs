@@ -1,10 +1,6 @@
-using BuildingBlocks.behaviours;
-using Microsoft.AspNetCore.Diagnostics;
-using Microsoft.AspNetCore.Mvc;
-using static System.Net.Mime.MediaTypeNames;
+
 
 var builder = WebApplication.CreateBuilder(args);
-
 //ADD Services to the container
 
 var assembly = typeof(Program).Assembly;
@@ -21,12 +17,14 @@ builder.Services.AddMarten(opts =>
     opts.Connection(builder.Configuration.GetConnectionString("Database")!);
 }).UseLightweightSessions();
 
+builder.Services.AddExceptionHandler<CustomExceptionHandler>();
+
 var app = builder.Build();
 
 // config the http request pipeline 
 app.MapCarter();
-
-app.UseExceptionHandler(exceptionHandler =>
+app.UseExceptionHandler(options => { });
+/*app.UseExceptionHandler(exceptionHandler =>
 {
     exceptionHandler.Run(async context =>
     {
@@ -54,5 +52,5 @@ app.UseExceptionHandler(exceptionHandler =>
 
         await context.Response.WriteAsJsonAsync(problemDetails);
     });
-});
+});*/
 app.Run();
