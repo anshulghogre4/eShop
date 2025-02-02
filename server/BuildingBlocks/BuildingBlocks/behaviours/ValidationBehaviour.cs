@@ -1,14 +1,7 @@
 ﻿using BuildingBlocks.CQRS;
 using FluentValidation;
 using MediatR;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-using System.Windows.Input;
-
-namespace BuildingBlocks.behaviours
+namespace BuildingBlocks.Behaviours
 {
     // this will work with only commands not query
     public class ValidationBehaviour<TRequest, TResponse>(IEnumerable<IValidator<TRequest>> validators) : IPipelineBehavior<TRequest, TResponse> where TRequest : ICommand<TResponse>
