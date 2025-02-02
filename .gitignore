@@ -82,3 +82,4 @@ _ReSharper.*
 *.lock.json
 project.lock.json
 /server/.vs/eshop-microservices/v17
+server/.vs/eshop-microservices/v17/DocumentLayout.json

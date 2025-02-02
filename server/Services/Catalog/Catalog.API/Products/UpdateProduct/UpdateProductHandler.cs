@@ -19,11 +19,11 @@ namespace Catalog.API.Products.UpdateProduct
             RuleFor(x => x.Price).GreaterThan(0).WithMessage("Price must be greater than 0");
         }
     }
-    public class UpdateProductCommandHandler(IDocumentSession session, ILogger<UpdateProductCommandHandler> logger) : ICommandHandler<UpdateProductCommand, UpdateProductResult>
+    public class UpdateProductCommandHandler(IDocumentSession session) : ICommandHandler<UpdateProductCommand, UpdateProductResult>
     {
         public async Task<UpdateProductResult> Handle(UpdateProductCommand cmd, CancellationToken cancellationToken)
         {
-            logger.LogInformation("UpdateProductCommand.Handle called with {@Command}", cmd);
+            /*logger.LogInformation("UpdateProductCommand.Handle called with {@Command}", cmd);*/
 
             var product = await session.LoadAsync<Product>(cmd.Id, cancellationToken);
             if (product == null)
