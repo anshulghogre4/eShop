@@ -1,4 +1,5 @@
 ﻿
+
 namespace Basket.API.Basket.StoreBasket
 {
     public record StoreBasketCommand(ShoppingCart Cart) : ICommand<StoreBasketResult>;
@@ -12,12 +13,13 @@ namespace Basket.API.Basket.StoreBasket
             RuleFor(x => x.Cart.UserName).NotEmpty().WithMessage("Username can not be empty");
         }
     }
-    public class StoreBasketCommandHandler : ICommandHandler<StoreBasketCommand, StoreBasketResult>
+    public class StoreBasketCommandHandler(IBasketRepository repository) : ICommandHandler<StoreBasketCommand, StoreBasketResult>
     {
         public async Task<StoreBasketResult> Handle(StoreBasketCommand cmd, CancellationToken cancellationToken)
         {
             ShoppingCart cart = cmd.Cart;
-            return new StoreBasketResult("ansh");
+            var basket = await repository.StoreBasketAsync(cart, cancellationToken);
+            return new StoreBasketResult(basket.UserName);
         }
     }
 }

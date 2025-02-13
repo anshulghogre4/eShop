@@ -8,10 +8,11 @@ namespace Basket.API.Data
 {
     public class BasketRepository(IDocumentSession session) : IBasketRepository
     {
-        public Task<bool> DeleteBasketAsync(string userName, CancellationToken cancellationToken = default)
+        public async Task<bool> DeleteBasketAsync(string userName, CancellationToken cancellationToken = default)
         {
-            session.Delete(userName);
-            return Task.FromResult(true);
+            session.Delete<ShoppingCart>(userName);
+            await session.SaveChangesAsync(cancellationToken);
+            return true;
         }
 
         public async Task<ShoppingCart> GetBasketAsync(string userName, CancellationToken cancellationToken = default)
